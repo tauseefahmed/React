@@ -1,0 +1,33 @@
+.meanContainer {
+  max-width: 900px;
+  margin: auto auto;
+  padding: 20px 20px;
+  margin-top: calc(100% - 80%);
+}
+
+body {
+  background: #563d7c !important;
+}
+.btn {
+  min-width: 200px;
+}
+
+.todoField {
+  width: calc(100% - 200px) !important;
+  padding: 12px 12px;
+  outline: none;
+}
+input.btn.btn-success.col-auto {
+  border-radius: 0px;
+  padding: 12px;
+  vertical-align: unset;
+}
+.todoUL {
+  padding-left: 0px;
+  list-style: none;
+}
+.todoUL li {
+  background: rgb(201, 6, 97);
+  padding: 6px 12px;
+  color: #fff;
+}
